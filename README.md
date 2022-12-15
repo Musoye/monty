@@ -1,2 +1,1 @@
-# monty
-The repository for Stack and queue and implemented monty too
+This is the implementation of how to write stack and queue and use both to write monty-a scripting language.
