@@ -68,8 +68,8 @@ typedef struct help
 	int data_struct;
 	char *argument;
 } help;
-help global;
 
+help global;
 /* stack utility functions available in linked_list.c */
 stack_t *add_node(stack_t **stack, const int n);
 stack_t *queue_node(stack_t **stack, const int n);
@@ -98,6 +98,6 @@ void opcode(stack_t **stack, char *str, unsigned int line_cnt);
 
 int is_digit(char *string);
 int isnumber(char *str);
-int isascii(int a);
+int is_ascii(int a);
 
 #endif /* MONTY_H */
